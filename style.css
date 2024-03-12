@@ -1,0 +1,113 @@
+*{
+
+margin: 0;
+paddinng: 0;
+box-sizing:border-box;
+
+}
+
+body {
+    background-image:url('computers1.jpg') ;
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+a{
+    text-decoration: none;
+    color:rgb(18, 18, 18);
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    overflow:auto;
+    border: 2px white;
+}
+
+header{
+    background-color:#b1bfc2e8;
+    
+}
+header nav h1{
+    float: left;
+    padding: 10px;
+    
+}
+header nav ul{
+    float:right;
+}
+
+header nav ul li{
+display:inline;
+}
+header nav ul li a{
+    font-size: 18px;
+    text-align: center;
+    display:inline-block;
+    padding: 10px;
+
+}
+
+header nav ul li a:hover{
+    color:rgb(75, 244, 75);
+    background-color: azure;
+}
+h1.intro{
+text-align: center;
+color:rgb(213, 244, 213);
+font-size: 45px;
+margin: 40px;
+color:black;
+border: 2px solid;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: #b1bfc2e8;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form label{
+    display:block;
+    color:rgb(6, 202, 6);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    width:100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"]{
+    display:block;
+    margin: 15px auto;
+    width: 80px;
+    padding: 10px 12px;
+    border:none;
+    border-radius: 8px;
+    color:#999;
+    text-align:center;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover{
+    background-color:rgb(75, 244, 75); ;
+    color:azure;
+    font-weight: bold;
+}
+
